@@ -3,13 +3,18 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
 import Cards from "./Cards.jsx";
+import myPosts from "../data/posts.js";
 
 //create your first component
 const Home = () => {
 	return (
 		<div>
-			<Navbar/>
-             <Cards title={"Card title"} description={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta numquam ut atque fuga aut laudantium!"} buttonDescription={"Find out more!"}/>
+			<Navbar />
+			<div className="">
+			{myPosts.map((post) => {
+				return <Cards title={post.title} description={post.description} buttonDescription={post.buttonDescription} key={post.id} />
+			})}
+			</div>
 		</div>
 	);
 };

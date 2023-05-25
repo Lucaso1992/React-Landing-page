@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Cards({ title, description, buttonDescription }) {
+ const Cards = ({ title, description, buttonDescription }) => {
 
     return (
-        <>
+       
             <div className="card" style={{ width: "18rem" }}>
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -12,7 +12,8 @@ export default function Cards({ title, description, buttonDescription }) {
                     <a href="#" className="btn btn-primary">{buttonDescription}</a>
                 </div>
             </div>
-        </>
+        
     );
 };
 
+export default Cards 
