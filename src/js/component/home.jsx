@@ -12,7 +12,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<div className="">
+			<div>
 				{myPosts.map((post) => {
 					return <Cards title={post.title} description={post.description} buttonDescription={post.buttonDescription} key={post.id} />
 				})}
