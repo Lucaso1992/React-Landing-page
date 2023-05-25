@@ -1,16 +1,18 @@
+
+//include images into your bundle
 import React from "react";
-import Jumbotron from "./Jumbotron.jsx";
-import Cards from "./Cards.jsx";
+import Navbar from "./Navbar.jsx";
 
 //create your first component
 const Home = () => {
 	return (
-		
+
+
 		<div>
-            <Navbar />
-            <Jumbotron />
-        </div>
-		
+			<Navbar/>
+
+		</div>
+
 	);
 };
 
