@@ -9,12 +9,14 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Jumbotron />
-      <div className="d-flex gap-3">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
+      <div className="container-fluid">
+        <Jumbotron />
+        <div className="d-flex gap-3 flex-wrap">
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+        </div>
       </div>
     </div>
   );
