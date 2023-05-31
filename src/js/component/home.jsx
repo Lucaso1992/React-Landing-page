@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="container-fluid d-flex flex-wrap gap-3 justify-content-center">
+      <div className="container-fluid d-flex flex-wrap gap-3 justify-content-between">
         <Jumbotron />
         <Cards />
         <Cards />
