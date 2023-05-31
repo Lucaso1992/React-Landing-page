@@ -10,7 +10,12 @@ const Home = () => {
     <div>
       <Navbar />
       <Jumbotron />
-      <Cards />
+      <div className="d-flex gap-3">
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+      </div>
     </div>
   );
 };
