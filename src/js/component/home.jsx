@@ -9,9 +9,8 @@ import "../../styles/index.css";
 //create your first component
 const Home = () => {
   return (
-    <div>
+    <div className="father position-relative">
       <Navbar />
-
       <div className="container">
         <Jumbotron />
         <div className="row">
