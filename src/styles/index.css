@@ -1,11 +1,7 @@
-#app {
+body {
   height: 100vh;
 }
 
 footer {
   height: 56px;
-}
-
-.father {
-  padding-bottom: 56px;
 }
