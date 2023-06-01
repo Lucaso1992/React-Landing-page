@@ -9,7 +9,7 @@ import "../../styles/index.css";
 //create your first component
 const Home = () => {
   return (
-    <div>
+    <div className="father position-relative h-100">
       <Navbar />
       <div className="container">
         <Jumbotron />
