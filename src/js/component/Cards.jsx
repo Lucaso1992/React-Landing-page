@@ -3,7 +3,7 @@ import img from "../../img/computer.png";
 
 const Cards = (props) => {
   return (
-    <div className=" col-lg-3 col-md-6 col-sm-12 mt-2">
+    <div className=" col-lg-3 col-md-6 col-sm-12 my-3">
       <div className="card">
         <img src={img} className="card-img-top" alt="..." />
         <div className="card-body text-center">
